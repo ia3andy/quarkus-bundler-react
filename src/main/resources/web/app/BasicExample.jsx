@@ -1,5 +1,8 @@
 import React from 'react';
 import useFetch from "react-fetch-hook";
+import Button from 'react-bootstrap/Button';
+import './main.scss';
+
 function BasicExample(props) {
     const { isLoading, data } = useFetch("/api/hello", {
         formatter: (response) => response.text()
@@ -8,8 +11,9 @@ function BasicExample(props) {
     return isLoading ? (
         <div>Loading...</div>
     ) : (
-        <div>
-            <h1>{data}</h1>
+        <div className="example">
+            <h1>{data} Monde</h1>
+            <Button>Button</Button>
         </div>
     );
 }
