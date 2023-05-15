@@ -44,8 +44,8 @@
       <artifactId>quarkus-resteasy-reactive</artifactId>
     </dependency>
     <dependency>
-      <groupId>io.quarkiverse.web-assets</groupId>
-      <artifactId>quarkus-web-assets</artifactId>
+      <groupId>io.quarkiverse.web-bundler</groupId>
+      <artifactId>quarkus-web-bundler</artifactId>
       <version>999-SNAPSHOT</version>
     </dependency>
     <dependency>
