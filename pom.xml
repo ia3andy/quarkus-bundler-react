@@ -46,7 +46,7 @@
     <dependency>
       <groupId>io.quarkiverse.web-bundler</groupId>
       <artifactId>quarkus-web-bundler</artifactId>
-      <version>0.0.1-alpha1</version>
+      <version>0.0.1-alpha3</version>
     </dependency>
     <dependency>
       <groupId>io.quarkiverse.quteserverpages</groupId>
@@ -63,7 +63,6 @@
       <artifactId>rest-assured</artifactId>
       <scope>test</scope>
     </dependency>
-
     <dependency>
       <groupId>org.mvnpm</groupId>
       <artifactId>react</artifactId>
