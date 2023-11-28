@@ -13,10 +13,10 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <quarkus.platform.artifact-id>quarkus-bom</quarkus.platform.artifact-id>
         <quarkus.platform.group-id>io.quarkus</quarkus.platform.group-id>
-        <quarkus.platform.version>3.3.2</quarkus.platform.version>
+        <quarkus.platform.version>3.4.3</quarkus.platform.version>
         <skipITs>true</skipITs>
         <surefire-plugin.version>3.0.0-M7</surefire-plugin.version>
-        <quarkus-web-bundler.version>1.1.2</quarkus-web-bundler.version>
+        <quarkus-web-bundler.version>1.1.4</quarkus-web-bundler.version>
         <quarkus-qute-server-pages.version>2.1.0.Final</quarkus-qute-server-pages.version>
     </properties>
     <dependencyManagement>
@@ -28,6 +28,7 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
+
         </dependencies>
     </dependencyManagement>
     <dependencies>
@@ -158,18 +159,6 @@
             </plugin>
         </plugins>
     </build>
-    <repositories>
-        <repository>
-            <id>central</id>
-            <name>central</name>
-            <url>https://repo.maven.apache.org/maven2</url>
-        </repository>
-        <repository>
-            <id>mvnpm.org</id>
-            <name>mvnpm</name>
-            <url>https://repo.mvnpm.org/maven2</url>
-        </repository>
-    </repositories>
     <profiles>
         <profile>
             <id>native</id>
